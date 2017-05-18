@@ -1,0 +1,78 @@
+
+/*包含标题和城市选择的盒子
+盒子的宽度和高度我随便设置*/
+#box{
+	border:1px solid gray;
+	/*background:pink;*/
+	height:180px;
+	width:700px;
+	margin:30px auto;
+}
+
+/*标题栏*/
+.title{
+	background: lightgray;
+	border-bottom: 1px solid gray;
+	height:70px;
+	width:700px;
+}
+
+/*各地旅游资讯样式*/
+.title span{
+	font-size:20px;
+	line-height: 70px;
+	margin-left: 20px;
+}
+
+/*按钮盒子*/
+.title .choice{
+	/*border:1px solid gray;*/
+	width:100px;
+	height:30px; 
+	margin:20px 10px 0px 0px;
+	/*background:red;*/
+	float:right;
+}
+/*标题栏按钮样式*/
+.title .choice .button{
+	border:none;
+	/*background:none;*/
+	font-size:17px;
+	text-align:center;
+	margin:0px;
+	color:black;
+	background-color: white;
+	transition-duration:0.5s;
+}
+
+/*鼠标悬停境外按钮颜色变灰*/
+.title .choice .button1:hover{
+	background-color: gray;
+}
+/*鼠标悬停国内按钮颜色变灰*/
+.title .choice .button2:hover{
+	background-color: gray;
+}
+
+/*城市列表属性*/
+.bottom .list li{
+	list-style-type: none;
+	display:inline-block;
+	margin-top:15px;
+	margin-left:10px;
+	margin-right:5px;
+}
+/*每个城市属性*/
+.bottom .list .city{
+	text-decoration: none;
+	color:black;
+}
+
+/*鼠标点击访问过字体颜色变成红色*/
+.bottom .list .city:visited{
+	color:red;
+}
+/*鼠标悬停字体颜色变化*/
+.list .city:hover{
+	color:green;
+}
